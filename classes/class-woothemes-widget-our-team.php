@@ -91,15 +91,15 @@ class Woothemes_Widget_Our_Team extends WP_Widget {
 		do_action( $this->woothemes_widget_cssclass . '_top' );
 
 		// Integer values.
-		if ( isset( $instance['limit'] ) && ( 0 < count( $instance['limit'] ) ) ) {
+		if ( isset( $instance['limit'] ) && $instance['limit'] ) {
 			$args['limit'] = intval( $instance['limit'] );
 		}
 
-		if ( isset( $instance['specific_id'] ) && ( 0 < count( $instance['specific_id'] ) ) ) {
+		if ( isset( $instance['specific_id'] ) && $instance['specific_id'] ) {
 			$args['id'] = intval( $instance['specific_id'] );
 		}
 
-		if ( isset( $instance['size'] ) && ( 0 < count( $instance['size'] ) ) ) {
+		if ( isset( $instance['size'] ) && $instance['size'] ) {
 			$args['size'] = intval( $instance['size'] );
 		}
 
