@@ -3,8 +3,8 @@ Contributors: woothemes, mattyza, jameskoster
 Donate link: http://woothemes.com/
 Tags: teams, team members, profiles, widget, shortcode, template-tag
 Requires at least: 3.8
-Tested up to: 3.9.1
-Stable tag: 1.4.1
+Tested up to: 6.4.3
+Stable tag: 1.4.1-fork-1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -188,6 +188,9 @@ We encourage everyone to contribute their ideas, thoughts and code snippets. Thi
 2. The team members displayed on the front-end with a little CSS to arrange in to columns.
 
 == Upgrade Notice =
+
+= 1.4.1-fork-1 =
+* Fixes compatibility with PHP 8.
 
 = 1.4.1 =
 * Removes deprecated constructor call for WP_Widget
